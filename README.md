@@ -1,4 +1,4 @@
--tb-redes2-dispatcher-gtk10
+tb-redes2-dispatcher-gtk10
 ===========================
 
 Trabalho de Redes 2 Dispatcher
