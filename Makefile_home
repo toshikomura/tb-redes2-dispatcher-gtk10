@@ -1,0 +1,20 @@
+all:
+	cp log.h.txt log.h
+	cp log.c.txt log.c
+	cp servidor.c.txt servidor.c
+	cp cliente.c.txt cliente.c
+	cp dispatcher.c.txt dispatcher.c
+	gcc -c log.c -ggdb
+	gcc -c servidor.c -ggdb
+	gcc -c cliente.c -ggdb
+	gcc -c dispatcher.c -ggdb
+	gcc servidor.o log.o -o servidor -ggdb
+	gcc cliente.o log.o -o cliente -ggdb
+	gcc dispatcher.o log.o -o dispatcher -ggdb
+	rm -rf *.o
+	rm -rf *~
+	scp * gtk10@macalan.c3sl.ufpr.br:Documentos/TRABALHOS/REDES2
+
+clean:
+	rm -rf *.o
+	rm -rf *~

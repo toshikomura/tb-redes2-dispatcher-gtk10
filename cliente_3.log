@@ -1,0 +1,14 @@
+[0:38:45 6-6-2012] REQUISCAO: DATA
+[0:38:45 6-6-2012] RESPOSTA: Wed Jun  6 00:38:45 2012
+
+[0:38:52 6-6-2012] REQUISCAO: PERGUNTA quanto_e_soma_2_8
+[0:38:52 6-6-2012] RESPOSTA: 10
+
+[0:38:56 6-6-2012] REQUISCAO: PERGUNTA inexistente
+[0:38:56 6-6-2012] RESPOSTA: pergunta_inexistente
+
+[0:39:3 6-6-2012] REQUISCAO: PERGUNTA inexistente
+[0:39:3 6-6-2012] RESPOSTA: pergunta_inexistente
+
+[0:39:8 6-6-2012] REQUISCAO: PERGUNTA inexistente
+[0:39:8 6-6-2012] RESPOSTA: pergunta_inexistente

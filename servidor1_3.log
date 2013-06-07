@@ -1,0 +1,9 @@
+[0:38:35 6-6-2012] Conexão com o Dispatcher aceita
+
+[0:38:52 6-6-2012] REQUISICAO de PERGUNTA
+[0:38:52 6-6-2012] PERGUNTA: quanto_e_soma_
+[0:38:52 6-6-2012] RESPOSTA: 10
+
+[0:39:3 6-6-2012] REQUISICAO de PERGUNTA
+[0:39:3 6-6-2012] PERGUNTA: inexistente
+[0:39:3 6-6-2012] RESPOSTA: pergunta_inexistente

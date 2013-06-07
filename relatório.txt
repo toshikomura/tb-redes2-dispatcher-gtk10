@@ -1,0 +1,79 @@
+Introdução:
+
+Este trabalho propõe a implementação de um sistema cliente-servidor que
+possui uma unidade intermediária(dispatcher) para controle de
+transmissão de mensagens. Este controle é feito apartir de uma lista de
+servidores conectados com o dispatcher que são selecionados em dois
+modos:
+
+-aleatório: Os servidores são selecionados de forma aleatória pelo
+ dispatcher
+
+-Round-Robin: Os servidores são selecionados em ordem dentro da lista do
+ dispatcher. Quando o último servidor é escolhido, o dispatcher
+ selecionará o primeiro servidor da lista para continuar as
+ transmissões.
+ 
+Modo de Funcionamento:
+
+<inserir a figura aqui>
+
+O funcionamento do sistema ocorre de forma bem simples. Primeiro é
+inciado o dispatcher com os seguintes parâmetros:
+
+<porta> - Porta com o qual será feita a comunicação com o dispatcher
+<tipo-de-escolha-do-servidor(batman/robin)> - Escolhe qual vai ser a
+forma de seleção dos servidores
+
+O dispatcher então inicializará uma lista com tamanho MAX_SERVER_NUMBER
+e entrará em modo servidor, esperando uma requisição JOIN dos servidores 
+para estes serem incluidos na lista.
+
+Agora deve ser feira a inicialização dos servidores, que segue com os
+seguintes parâmetros:
+
+<nome-dispatcher> - Endereço do dispatcher
+<porta-dispatcher> - Porta de comunicação com o dispatcher
+<porta-servidor> - Porta com o qual o dispatcher fará comunicação com o
+servidor
+
+No momento de inicialização(boot), o servidor enviará uma requisição
+JOIN para o dispatcher para entrar em sua lista. Se a entrada for
+confirmada o dispatcher responde com um ACCEPTED então o servidor
+entrará em modo de espera para receber as requisiçoes dos clientes.
+Se a lista do dispatcher estiver cheia, este então este envia uma
+resposta LIST_FULL no qual encerrará o servidor já que ele não poderá
+entrar na lista.
+
+Agora que os servidores e o dispatcher estão prontos, os clientes podem
+enviar requisições.
+
+Neste trabalho a implementação do sistema é de um simples date remoto,
+onde o cliente irá pedir qual é a data e hora local do servidor.
+O formato da mensagem será: Dia-da-Semana Mês Dia Hora-Minuto-Segundo
+Ano.
+
+Para o cliente, ele deve passar os seguintes parâmetros:
+
+<nome-servidor> - Endereço do dispatcher
+<porta> - Porta de comunicação do dispatcher
+
+O cliente irá mandar uma requisição REQUEST para o dispatcher. Este irá
+escolher um servidor em um dos modos aleatório ou Round-Robin, e enviará
+uma requisição CLIENT_REQUEST. O servidor então irá processar a
+requisição e responderá para o dispatcher com sua data e hora local e
+este irá repassar a mensagem para o cliente.
+
+Estruturas de Dados:
+
+typedef struct
+{
+	struct sockaddr_in ip; // Ip do servidor
+	int port; // Porta do servidor
+}server; // Estrutura para a lista de servidores
+
+Esta é a estrutura utilizada na implementação da lista dos servidores.
+
+Compilar:
+
+Para compilar os programas, basta executar o make.

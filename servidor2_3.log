@@ -1,0 +1,13 @@
+[0:38:36 6-6-2012] Conexão com o Dispatcher aceita
+
+[0:38:45 6-6-2012] REQUISICAO de DATA
+[0:38:45 6-6-2012] RESPOSTA
+[0:38:45 6-6-2012] Mensagem Wed Jun  6 00:38:45 2012
+
+[0:38:56 6-6-2012] REQUISICAO de PERGUNTA
+[0:38:56 6-6-2012] PERGUNTA: inexistente
+[0:38:56 6-6-2012] RESPOSTA: pergunta_inexistente
+
+[0:39:7 6-6-2012] REQUISICAO de PERGUNTA
+[0:39:7 6-6-2012] PERGUNTA: inexistente
+[0:39:7 6-6-2012] RESPOSTA: pergunta_inexistente

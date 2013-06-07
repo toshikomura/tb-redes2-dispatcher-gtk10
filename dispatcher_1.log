@@ -1,0 +1,135 @@
+[23:36:42 5-6-2012] Dispatcher iniciando
+[23:36:42 5-6-2012] Dispatcher entranado em modo servidor
+[23:36:47 5-6-2012] Servidor requisitando entrada no grupo
+[23:36:53 5-6-2012] Servidor requisitando entrada no grupo
+[23:37:8 5-6-2012] Cliente requisitando algo
+[23:37:8 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 0
+[23:37:8 5-6-2012] Modo aleatorio
+[23:37:8 5-6-2012] Escolhendo servidor 0
+
+[23:37:8 5-6-2012] CLIENTE PERGUNTA PARA SERVIDOR
+[23:37:8 5-6-2012] Mensagem PERGUNTA quanto_e_soma_3_4 
+
+[23:37:8 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:8 5-6-2012] Mensagem 7 
+
+[23:37:10 5-6-2012] Cliente requisitando algo
+[23:37:10 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 0
+[23:37:10 5-6-2012] Modo aleatorio
+[23:37:10 5-6-2012] Escolhendo servidor 1
+
+[23:37:10 5-6-2012] REQUISICAO de DATA
+[23:37:10 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:10 5-6-2012] Mensagem Tue Jun  5 23:37:10 2012
+ 
+
+[23:37:13 5-6-2012] Cliente requisitando algo
+[23:37:13 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 1
+[23:37:13 5-6-2012] Modo aleatorio
+[23:37:13 5-6-2012] Escolhendo servidor 0
+
+[23:37:13 5-6-2012] CLIENTE PERGUNTA PARA SERVIDOR
+[23:37:13 5-6-2012] Mensagem PERGUNTA quanto_e_soma_2_3 
+
+[23:37:13 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:13 5-6-2012] Mensagem 5 
+
+[23:37:14 5-6-2012] Cliente requisitando algo
+[23:37:14 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 0
+[23:37:14 5-6-2012] Modo aleatorio
+[23:37:14 5-6-2012] Escolhendo servidor 0
+
+[23:37:14 5-6-2012] REQUISICAO de DATA
+[23:37:14 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:14 5-6-2012] Mensagem Tue Jun  5 23:37:14 2012
+ 
+
+[23:37:18 5-6-2012] Cliente requisitando algo
+[23:37:18 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 0
+[23:37:18 5-6-2012] Modo aleatorio
+[23:37:18 5-6-2012] Escolhendo servidor 0
+
+[23:37:18 5-6-2012] CLIENTE PERGUNTA PARA SERVIDOR
+[23:37:18 5-6-2012] Mensagem PERGUNTA quanto_e_divisao_4197232_32767 
+
+[23:37:18 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:18 5-6-2012] Mensagem 128 
+
+[23:37:18 5-6-2012] Cliente requisitando algo
+[23:37:18 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 0
+[23:37:18 5-6-2012] Modo aleatorio
+[23:37:18 5-6-2012] Escolhendo servidor 1
+
+[23:37:18 5-6-2012] REQUISICAO de DATA
+[23:37:18 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:18 5-6-2012] Mensagem Tue Jun  5 23:37:18 2012
+ 
+
+[23:37:19 5-6-2012] Cliente requisitando algo
+[23:37:19 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 1
+[23:37:19 5-6-2012] Modo aleatorio
+[23:37:19 5-6-2012] Escolhendo servidor 1
+
+[23:37:19 5-6-2012] REQUISICAO de FALHA
+[23:37:19 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:19 5-6-2012] Mensagem Opcao_inexistente 
+
+[23:37:20 5-6-2012] Cliente requisitando algo
+[23:37:20 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 1
+[23:37:20 5-6-2012] Modo aleatorio
+[23:37:20 5-6-2012] Escolhendo servidor 1
+
+[23:37:20 5-6-2012] REQUISICAO de FALHA
+[23:37:20 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:20 5-6-2012] Mensagem Opcao_inexistente 
+
+[23:37:21 5-6-2012] Cliente requisitando algo
+[23:37:21 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 1
+[23:37:21 5-6-2012] Modo aleatorio
+[23:37:21 5-6-2012] Escolhendo servidor 1
+
+[23:37:21 5-6-2012] REQUISICAO de FALHA
+[23:37:21 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:21 5-6-2012] Mensagem Opcao_inexistente 
+
+[23:37:22 5-6-2012] Cliente requisitando algo
+[23:37:22 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 1
+[23:37:22 5-6-2012] Modo aleatorio
+[23:37:22 5-6-2012] Escolhendo servidor 1
+
+[23:37:22 5-6-2012] REQUISICAO de DATA
+[23:37:22 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:22 5-6-2012] Mensagem Tue Jun  5 23:37:22 2012
+ 
+
+[23:37:24 5-6-2012] Cliente requisitando algo
+[23:37:24 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 1
+[23:37:24 5-6-2012] Modo aleatorio
+[23:37:24 5-6-2012] Escolhendo servidor 1
+
+[23:37:24 5-6-2012] REQUISICAO de DATA
+[23:37:24 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:24 5-6-2012] Mensagem Tue Jun  5 23:37:24 2012
+ 
+
+[23:37:28 5-6-2012] Cliente requisitando algo
+[23:37:28 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 1
+[23:37:28 5-6-2012] Modo aleatorio
+[23:37:28 5-6-2012] Escolhendo servidor 0
+
+[23:37:28 5-6-2012] CLIENTE PERGUNTA PARA SERVIDOR
+[23:37:28 5-6-2012] Mensagem PERGUNTA quanto_e_soma_2_4 
+
+[23:37:28 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:28 5-6-2012] Mensagem 6 
+
+[23:37:31 5-6-2012] Cliente requisitando algo
+[23:37:31 5-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 0
+[23:37:31 5-6-2012] Modo aleatorio
+[23:37:31 5-6-2012] Escolhendo servidor 1
+
+[23:37:31 5-6-2012] CLIENTE PERGUNTA PARA SERVIDOR
+[23:37:31 5-6-2012] Mensagem PERGUNTA qual_seu_nome_? 
+
+[23:37:31 5-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[23:37:31 5-6-2012] Mensagem Joao 

@@ -1,0 +1,57 @@
+[0:38:32 6-6-2012] Dispatcher iniciando
+[0:38:32 6-6-2012] Dispatcher entranado em modo servidor
+[0:38:34 6-6-2012] Servidor requisitando entrada no grupo
+[0:38:36 6-6-2012] Servidor requisitando entrada no grupo
+[0:38:45 6-6-2012] Cliente requisitando algo
+[0:38:45 6-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 0
+[0:38:45 6-6-2012] Modo Round-Robin
+[0:38:45 6-6-2012] Escolhendo servidor 1
+
+[0:38:45 6-6-2012] REQUISICAO de DATA
+[0:38:45 6-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[0:38:45 6-6-2012] Mensagem Wed Jun  6 00:38:45 2012
+ 
+
+[0:38:52 6-6-2012] Cliente requisitando algo
+[0:38:52 6-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 1
+[0:38:52 6-6-2012] Modo Round-Robin
+[0:38:52 6-6-2012] Escolhendo servidor 0
+
+[0:38:52 6-6-2012] CLIENTE PERGUNTA PARA SERVIDOR
+[0:38:52 6-6-2012] Mensagem PERGUNTA quanto_e_soma_2_8 
+
+[0:38:52 6-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[0:38:52 6-6-2012] Mensagem 10 
+
+[0:38:56 6-6-2012] Cliente requisitando algo
+[0:38:56 6-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 0
+[0:38:56 6-6-2012] Modo Round-Robin
+[0:38:56 6-6-2012] Escolhendo servidor 1
+
+[0:38:56 6-6-2012] CLIENTE PERGUNTA PARA SERVIDOR
+[0:38:56 6-6-2012] Mensagem PERGUNTA inexistente 
+
+[0:38:56 6-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[0:38:56 6-6-2012] Mensagem pergunta_inexistente 
+
+[0:39:3 6-6-2012] Cliente requisitando algo
+[0:39:3 6-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 1
+[0:39:3 6-6-2012] Modo Round-Robin
+[0:39:3 6-6-2012] Escolhendo servidor 0
+
+[0:39:3 6-6-2012] CLIENTE PERGUNTA PARA SERVIDOR
+[0:39:3 6-6-2012] Mensagem PERGUNTA inexistente 
+
+[0:39:3 6-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[0:39:3 6-6-2012] Mensagem pergunta_inexistente 
+
+[0:39:7 6-6-2012] Cliente requisitando algo
+[0:39:7 6-6-2012] Cliente enviou mensagem, passando mensagem para o servidor 0
+[0:39:7 6-6-2012] Modo Round-Robin
+[0:39:7 6-6-2012] Escolhendo servidor 1
+
+[0:39:7 6-6-2012] CLIENTE PERGUNTA PARA SERVIDOR
+[0:39:7 6-6-2012] Mensagem PERGUNTA inexistente 
+
+[0:39:7 6-6-2012] SERVIDOR RESPOSTA PARA CLIENTE
+[0:39:7 6-6-2012] Mensagem pergunta_inexistente 
